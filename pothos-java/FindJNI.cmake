@@ -115,6 +115,7 @@ JAVA_APPEND_LIBRARY_DIRECTORIES(JAVA_AWT_LIBRARY_DIRECTORIES
   /usr/lib/jvm/java-1.5.0-sun/jre/lib/{libarch}
   /usr/lib/jvm/java-6-sun-1.6.0.00/jre/lib/{libarch}       # can this one be removed according to #8821 ? Alex
   /usr/lib/jvm/java-6-openjdk/jre/lib/{libarch}
+  /usr/lib/jvm/java-7-openjdk/jre/lib/{libarch}
   /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/{libarch}        # fedora
   # Ubuntu
   /usr/lib/jvm/java-7-openjdk-{libarch}/jre/lib/{libarch}
@@ -156,6 +157,7 @@ JAVA_APPEND_LIBRARY_DIRECTORIES(JAVA_AWT_INCLUDE_DIRECTORIES
   /usr/lib/jvm/java-1.5.0-sun/include
   /usr/lib/jvm/java-6-sun-1.6.0.00/include       # can this one be removed according to #8821 ? Alex
   /usr/lib/jvm/java-6-openjdk/include
+  /usr/lib/jvm/java-7-openjdk/include
   /usr/local/share/java/include
   /usr/lib/j2sdk1.4-sun/include
   /usr/lib/j2sdk1.5-sun/include
